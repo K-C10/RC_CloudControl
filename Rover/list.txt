@@ -1,0 +1,2 @@
+This directory contains all onboard code of the rover, be it a 1/16rc car, tank, or ftc robot.
+Will be written in c++ for speed and hardware access

@@ -1,0 +1,1 @@
+This directory houses the basic cloud container, this container will be built by docker and utilize online container services to run.
