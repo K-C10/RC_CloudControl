@@ -1,0 +1,10 @@
+services:
+  rcdrivecomms:
+    image: Toast/rcdrivecomms
+    container_name: Comms
+    ports:
+      #todo, add video stream port (RTSP)Car->Server, controls (UDP)Server->Car, and telementry(UDP)Car->Server
+      - 80:80/tcp # client controller 
+      - 554:554/rtsp # video feed from Car Agent
+      - 555:555/udp  # Telementry
+      - 556:556/udp  # Car Controls
