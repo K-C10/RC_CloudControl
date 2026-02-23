@@ -1,2 +1,9 @@
 This directory contains all onboard code of the rover, be it a 1/16rc car, tank, or ftc robot.
 Will be written in c++ for speed and hardware access
+Rover code will be written to run on raspberry pi 5
+
+Dev webcam used - Logitech - 720p
+
+Basic
+    Streaming webcams will be handled with Live555 library
+    

@@ -1,1 +1,1 @@
-sudo docker build -t Toast/rcdrivecomms:latest .
+sudo docker build -t Toast/RC_CloudContainer:latest .
