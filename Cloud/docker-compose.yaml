@@ -1,11 +1,11 @@
 services:
   rcdrivecomms:
-    image: Toast/RC_CloudContainer
+    image: Toast/rc_cloudcontainer
     container_name: Comms
     ports:
       #todo, add video stream port (RTSP)Car->Server, controls (UDP)Server->Car, and telementry(UDP)Car->Server
       - 80:80/tcp # Control Webpage
       
-      - 554:554/rtsp # video feed    Rover -> Server
-      - 555:555/udp  # Telementry    Rover -> Server
-      - 556:556/udp  # Car Controls  Rover <- Server
+      #- 554:554/rtsp # video feed    Rover -> Server
+      #- 555:555/udp  # Telementry    Rover -> Server
+      #- 556:556/udp  # Car Controls  Rover <- Server

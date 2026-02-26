@@ -1,1 +1,1 @@
-sudo docker build -t Toast/RC_CloudContainer:latest .
+sudo docker build -t Toast/rc_cloudcontainer:latest .
