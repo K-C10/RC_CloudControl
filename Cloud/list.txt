@@ -1,7 +1,6 @@
 This directory houses the basic cloud container, this container will be built by docker and utilize online container services to run.
 
 Needs:
-    Have login Security
     Have ability to use RTSP streaming port
     fast
     dynamic rendering
